@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>影片搜索 - 红粉影视</title>
+  <meta name="description" content="在红粉影视搜索国产影视、免费电影、剧集、高清在线播放资源。">
+  <meta name="keywords" content="国产，视频，免费播放，影视资源，在线观看，高清流畅，电影合集，影迷必看，资源收录,片单,整理,推荐,资源,平台,搜索,影片检索">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="红粉影视">
+      <span class="brand-mark">红</span>
+      <span class="brand-name">红粉影视</span>
+    </a>
+    <nav class="desktop-nav">
+        <a class="nav-link" href="index.html">首页</a>
+        <a class="nav-link" href="categories.html">分类</a>
+        <a class="nav-link" href="ranking.html">排行榜</a>
+        <a class="nav-link active" href="search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、类型、地区" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开导航" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" hidden>
+    <nav>
+      <a class="nav-link" href="index.html">首页</a>
+        <a class="nav-link" href="categories.html">分类</a>
+        <a class="nav-link" href="ranking.html">排行榜</a>
+        <a class="nav-link active" href="search.html">搜索</a>
+    </nav>
+    <form class="mobile-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main>
+  <section class="page-hero search-hero">
+    <p class="eyebrow">Search</p>
+    <h1>搜索红粉影视</h1>
+    <p>输入影片名称、地区、类型、年份、标签或简介关键词，快速找到想看的内容。</p>
+    <form class="big-search" action="search.html" method="get">
+      <input id="searchInput" type="search" name="q" placeholder="例如：剧情、国产、悬疑、爱情" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+  </section>
+  <section class="section-block search-results-block">
+    <div class="section-heading">
+      <div>
+        <h2 id="searchTitle">影片搜索</h2>
+        <p id="searchNote">输入关键词后即可查看匹配结果。</p>
+      </div>
+    </div>
+    <div id="searchResults" class="movie-grid category-movie-grid"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo">红粉影视</div>
+      <p>本合集提供免费国产影视视频资源在线播放，收录大量国产电影与影片，支持高清流畅播放，是影迷寻找和观看国产视频的理想之地。</p>
+    </div>
+    <div>
+      <h2>快速入口</h2>
+      <div class="footer-links">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类浏览</a>
+        <a href="ranking.html">排行榜</a>
+        <a href="search.html">影片搜索</a>
+      </div>
+    </div>
+    <div>
+      <h2>精选分类</h2>
+      <div class="footer-links footer-tags">
+        <a href="category-01.html">红粉精选一</a><a href="category-02.html">红粉精选二</a><a href="category-03.html">红粉精选三</a><a href="category-04.html">红粉精选四</a><a href="category-05.html">红粉精选五</a><a href="category-06.html">红粉精选六</a><a href="category-07.html">红粉精选七</a><a href="category-08.html">红粉精选八</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 红粉影视. All rights reserved.</div>
+</footer>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/search-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
